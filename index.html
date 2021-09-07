@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> pretty form </title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form method="POST">
+            <div class ="form-group">
+                <h3> Creer un compte Epitech</h3>
+                <div class ="form-group">
+                    <label for="name">Nom</label>
+                    <input required />
+                </div>
+                <div class ="form-group">
+                    <label for="last name">Prenom</label>
+                    <input
+                    type="text"
+                    required />
+                </div>
+                <div class ="form-group">
+                    <label for="age">Age</label>
+                    <input
+                    type="number"
+                    required />
+                </div>
+                <label for="email-adress">Email</label>
+                <input
+                id="email-adress"
+                name="email"
+                type="email"
+                required
+                />
+            </div>
+            <div class ="form-group">
+                <label for="password">Mot de passe</label>
+                <input 
+                id="password"
+                name="password"
+                type="password"
+                required />
+            </div>
+            <div class ="form-group">
+                <label for="telephone">Numero de telephone</label>
+                <input
+                type="tel"
+                required />
+            </div>
+            <div class ="form-group">
+                <label for="xp">Pays de residence</label>
+                <select id="xp" name="xp" required>
+                    <option>France</option>
+                    <option>Italy</option>
+                    <option>Cameroon</option>
+                    <option>Nigeria</option>
+                    <option>Belgium</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </body>
+</html>
