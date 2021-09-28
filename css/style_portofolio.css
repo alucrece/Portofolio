@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 30PX;
+    margin-right: 30PX;
+}
+.main .first{
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2px;
+    border-style: double;
+    box-shadow: 6px 6px 6px white;
+    width: 500px;
+    
+}
+.main .second{
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2px;
+    box-shadow: 6px 6px 6px white;
+    border-style: double;
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 500px;
+}
+.main .third{
+    flex-direction: column;
+    justify-content: center;
+    border-style: double;
+    margin-left: 60px;
+    width: 500px;
+    box-shadow: 6px 6px 6px white;
+}
+.main .fourth{
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2px;
+    box-shadow: 6px 6px 6px white;
+    border-style: double;
+   margin-left: 60px;
+    margin-top: 50px;
+    width: 500px;
+}
+.main .first .h3{
+    text-align: center;
+}
