@@ -11,75 +11,71 @@
         
     </head>
     <body>
-        <div class="header">
-            <div class="cont">
-                <div class="navbar">
-                    <div class="menu">
-                        <ul>
-                            <li><a href="accueil.html"><br><br><br><br><br>Accueil</a></li>
-                            <li><a href="portofolio.html">Portofolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
+        <header>
+            <nav >
+                <ul>
+                    <li><a href="accueil.html"><br><br><br><br><br>Accueil</a></li>
+                    <li><a href="portofolio.html">Portofolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <section class="contact">
+            <div class="content">
+                <h2>Avez vous des questions?</h2>
+            </div>
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><img src="https://img.icons8.com/material-sharp/24/000000/marker.png"/></div>
+                        <div class="text">
+                            <h3>Adresse</h3>
+                            <p>109 quai de la banquière <br>06730 Saint André de la Roche</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <img src="https://img.icons8.com/material-rounded/24/000000/phone--v1.png"/></div>
+                        <div class="text">
+                            <h3>Télephone</h3>
+                            <p>+33758754482</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <img src="https://img.icons8.com/material-outlined/24/000000/mail.png"/></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>vanelle-lucrece.aliebong-zeukeng@epitech.eu</p>
+                        </div>
                     </div>
                 </div>
-                <section class="contact">
-                    <div class="content">
-                        <h2>Avez vous des questions?</h2>
-                    </div>
-                    <div class="container">
-                        <div class="contactInfo">
-                            <div class="box">
-                                <div class="icon"><img src="https://img.icons8.com/material-sharp/24/000000/marker.png"/></div>
-                                <div class="text">
-                                    <h3>Adresse</h3>
-                                    <p>109 quai de la banquière <br>06730 Saint André de la Roche</p>
-                                </div>
-                            </div>
-                            <div class="box">
-                                <div class="icon">
-                                    <img src="https://img.icons8.com/material-rounded/24/000000/phone--v1.png"/></div>
-                                <div class="text">
-                                    <h3>Télephone</h3>
-                                    <p>+33758754482</p>
-                                </div>
-                            </div>
-                            <div class="box">
-                                <div class="icon">
-                                    <img src="https://img.icons8.com/material-outlined/24/000000/mail.png"/></div>
-                                <div class="text">
-                                    <h3>Email</h3>
-                                    <p>vanelle-lucrece.aliebong-zeukeng@epitech.eu</p>
-                                </div>
-                            </div>
+                <div class="contactForm">
+                    <form target="_blank" action="https://formsubmit.co/aliebonglucrece123@gmail.com" method="POST">
+                        <h2>Envoyer moi un message</h2>
+                        <input type="hidden" name="_next" value="https://alucrece.github.io/Portofolio/thank.html">
+                        <div class="inputBox">
+                            <input type="text" name="fullname" required="required">
+                            <span>Nom</span>
                         </div>
-                        <div class="contactForm">
-                            <form target="_blank" action="https://formsubmit.co/aliebonglucrece123@gmail.com" method="POST">
-                                <h2>Envoyer moi un message</h2>
-                                <input type="hidden" name="_next" value="https://alucrece.github.io/Portofolio/thank.html">
-                                <div class="inputBox">
-                                    <input type="text" name="fullname" required="required">
-                                    <span>Nom</span>
-                                </div>
-                                <div class="inputBox">
-                                    <input type="email" name="emailaddress" required="required">
-                                    <span>Email</span>
-                                </div>
-                                <div class="inputBox">
-                                    <input type="tel" name="mobile" required="required">
-                                    <span>Téléphone</span>
-                                </div>
-                                <div class="inputBox">
-                                    <input type="text" name="message" required="required">
-                                    <span>Entrez votre message...</span>
-                                </div>
-                                <div class="inputBox">
-                                    <input type="submit" name="" value="Envoyer">
-                                </div>
-                            </form>
+                        <div class="inputBox">
+                            <input type="email" name="emailaddress" required="required">
+                            <span>Email</span>
                         </div>
-                    </div>
-                </section>
+                        <div class="inputBox">
+                            <input type="tel" name="mobile" required="required">
+                            <span>Téléphone</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="message" required="required">
+                            <span>Entrez votre message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Envoyer">
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
+        </section>
     </body>
 </html>

@@ -1,42 +1,58 @@
-body{
-    background-image: url("../bg1.jpg");
-    background-size: cover;
-}
-.navbar{
-    height: 123px;
-    background-color: black;
-}
-.menu{
-    text-align: center;
-}
-.menu ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.menu ul li{
-    display: inline-block;
-    font-weight: 300;
-    margin: 0 25px;
-}
-.body{
-   margin-left: 170px;
-   color: #fff;
-   margin-top: 100px;
-   margin-right: 170px;
-}
+@media screen {
+    
 
-.cv{
-    text-align: center;
-    margin-top: 100px;
+    body{
+        background-image: url("../img/bg.jpg");
+        background-size: cover;
+    }
+
+    header{
+        background-color: #212121 ;
+        text-align: center;
+        
+        width: 100%;
+        top: 50px;
+        height: 20vh;
+    }
+    li{
+        display: inline-block;
+        margin: 45px;
+    
+        margin-bottom: 20px;
+    }
+
+    .Me {
     display: flex;
-    color: #fff;
-    min-width: 70px;
-    padding: 10px;
-    width: 15%;
-    justify-content: center;
-    border-radius: 25px 25px;
-    border-style: ridge;
-    background-color: #fff;
-    margin-left: 500px;
+    height: 40vh;
+    margin-top: 50px;
+
+    }
+
+    a:hover{
+        color: red;
+        font-size: 100%;
+    }
+    .img{
+        border-radius: 9999rem;
+        aspect-ratio: 1;
+    }
+    .story{
+        color: #fff;
+        font-size: 150%;
+    }
+
+    .cv{
+        text-align: center;
+        margin-top: 100px;
+        display: flex;
+        color: #fff;
+        min-width: 70px;
+        padding: 10px;
+        
+        justify-content: center;
+        border-radius: 25px 25px;
+        border-style: ridge;
+        background-color: #fff;
+        
+    }
 }
